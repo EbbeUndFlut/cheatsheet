@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* font-family: 'VT323', monospace; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+    font-weight: normal;
+    background: #000;
+    color:#00ff00;
+    font-size: 20px;
+}
+
+header{
+    margin: 3vh 5vh 6vh;
+}
+
+header img{
+    width:5%;
+    opacity: 1;
+    margin-right: 40px;
+}
+header h1{
+    font-size: 65px;
+    display: inline-block;
+}
+
+h2{
+    display: inline-block;
+    font-size: 80px;
+}
+
+main section div{
+    padding: 40px 30px;
+}
+main section div img{
+    width:10%;
+    margin-right:40px;
+}
+main section p{
+    padding:0vh 0 1vh 5vh;
+    width:75%;
+}
+
+main section p:nth-of-type(even) {
+    padding: 0 0 2vh 7vh;
+    color: #32cd32
+}
+.order{
+    font-size: 30px;
+}
+
+.order::after{
+    content:"f";
+    background: #00ff00;
+    animation: blinker 1s linear infinite alternate;
+}
+
+.order::before{
+    content: "christian@atomreaktor:~$ "
+}
+.description{
+    font-size: 25px;
+}
+
+@keyframes blinker {
+    0% {opacity: 0;}
+    100% {opacity: 1}
+}

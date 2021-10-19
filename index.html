@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CheatSheet</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/img/logo.png" alt="cheatsheet logo">
+        <h1>Neo's CheatSheet</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <img src="./assets/img/gihub.png" alt="Github Logo">
+                <h2>Git</h2>
+            </div>
+            <p class="order">git init</p>
+            <p class="description">Dieser Befehl erstellt ein leeres Git Repository</p>
+            <p class="order">git add .</p>
+            <p class="description">Alle veränderten und neu erstellen Dateien werden zum Commiten vorgemerkt</p>
+            <p class="order">git commit -m 'First Commit'</p>
+            <p class="description">Die vorgemerkten Dateien werden commited. Durch -m kann ein der notendige Kommentar gleich im selben Zug erstellt werden.</p>
+            <p class="order">git remote add origin git@github.com:GithubUserName/GithubRepository.git</p>
+            <p class="description">Fügt origin als Remote Repository hinzu. Nach origin folgt die url des zu nutzenden Repositories</p>
+            <p class="order">git push</p>
+            <p class="description">Alle lokalen commits werden in das remote repository gepusht</p>
+        </section>
+        <section>
+            <div>
+                <img src="./assets/img/terminal.png" alt="Terminal Logo">
+                <h2>Terminal</h2>
+            </div>
+            <p class="order">mkdir pfad/ordnername</p>
+            <p class="description">Erstellt am angegebenen Pfad einen neuen Ordner</p>
+            <p class="order">cd pfad/ordnername</p>
+            <p class="description">Wechselt in den angebenene Ordner</p>
+            <p class="order">touch pfad/dateiname.endung</p>
+            <p class="description">Erstellt eine neue Datei im angegebenen Pfad</p>
+            <p class="order">ls -la</p>
+            <p class="description">Listet den Inhalt des aktuellen Ordners auf. Durch die Parameter l und a werden alle Elemente in einer ausführlichen Listenansicht dargestellt und auch alle versteckten Elemente werden dargestellt.</p>
+        </section>
+    </main>
+</body>
+</html>
